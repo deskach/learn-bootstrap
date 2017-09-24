@@ -7,6 +7,7 @@
     "start": "node ./server/main.js",
     "dev": "echo 'run dev' & npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "create-glyphicons-css": "cd ./node_modules/glyphicons-css && node render.js ../../web/assets/glyphicons/png ../assets/glyphicons/png > ../../web/css/glyphicons.css && cd -",
     "nodemon": "./node_modules/nodemon/bin/nodemon.js --config nodemon.json --exec npm run dev "
   },
   "repository": {
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "express": "^4.15.4",
+    "glyphicons-css": "^1.1.0",
     "reload": "^2.2.2",
     "watch": "^1.0.2"
   }
