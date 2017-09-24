@@ -26,6 +26,7 @@
     "popper.js": "^1.12.5"
   },
   "devDependencies": {
-    "reload": "^2.2.2"
+    "reload": "^2.2.2",
+    "watch": "^1.0.2"
   }
 }
