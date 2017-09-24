@@ -4,7 +4,10 @@
   "description": "Playing with bootstrap",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./server/main.js",
+    "dev": "echo 'run dev' & npm start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "./node_modules/nodemon/bin/nodemon.js --config nodemon.json --exec npm run dev "
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,11 @@
   "homepage": "https://github.com/deskach/learn-bootstrap#readme",
   "dependencies": {
     "bootstrap-4": "^4.0.0",
-    "jquery": "^3.2.1"
+    "express": "^4.15.4",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  },
+  "devDependencies": {
+    "reload": "^2.2.2"
   }
 }
