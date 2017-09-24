@@ -21,11 +21,11 @@
   "homepage": "https://github.com/deskach/learn-bootstrap#readme",
   "dependencies": {
     "bootstrap-4": "^4.0.0",
-    "express": "^4.15.4",
     "jquery": "^3.2.1",
     "popper.js": "^1.12.5"
   },
   "devDependencies": {
+    "express": "^4.15.4",
     "reload": "^2.2.2",
     "watch": "^1.0.2"
   }
