@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Gamma photosharing app</title>
+    <title>Contact</title>
     <!-- Bootstrap core CSS -->
     <link href="assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -25,7 +25,7 @@
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">
                         <span class="glyph-small glyph-home"></span>
                         &nbsp;Home
@@ -37,7 +37,7 @@
                         <span class="glyph-small glyph-info-sign"></span>&nbsp;About
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link disabled" href="contact.html">
                         <i class="glyph-small glyph-headset"></i>&nbsp;Contact
                     </a>
@@ -62,25 +62,47 @@
     </div>
 </nav>
 
-<div class="jumbotron">
+<section id="title-bar">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h1>Capture <span class="em-text">Life</span></h1>
-                <p>A fun and easy way to capture & share the moments you live for</p>
-                <a href="#"><img class="app-btn" src="img/icon_app_store.png"> </a>
-                <a href="#"><img class="app-btn" src="img/icon_google_play.png"> </a>
-            </div>
-            <div class="col-md-6">
-                <img class="showcase-img" src="img/site_phone.png">
+            <div class="col-md-12">
+                <h1>Contact Us</h1>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<section id="middle">
+<section id="contact">
     <div class="container">
         <div class="row">
+            <div class="col-md-8">
+                <form>
+                    <div class="form-group">
+                        <label for="nameInput">Name</label>
+                        <input type="text" class="form-control" id="nameInput"
+                               placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="companyInput">Company</label>
+                        <input type="text" class="form-control" id="companyInput"
+                               placeholder="Enter your company name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                            email with anyone else.
+                        </small>
+                    </div>
+                    <div class="form-group">
+                        <label for="messageInput">Message</label>
+                        <textarea type="text" class="form-control" id="messageInput"
+                                  placeholder="Enter a message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
             <div class="col-md-4">
                 <img src="img/demo1.jpg" class="demo">
                 <h2>Lorem Ipsum</h2>
@@ -88,41 +110,6 @@
                     neque eu dictum. Suspendisse eu maximus tellus, suscipit posuere dui. </p>
                 <a href="#" class="btn btn-secondary" role="button" aria-pressed="true">Read
                     more</a>
-            </div>
-            <div class="col-md-4">
-                <img src="img/demo2.jpg" class="demo">
-                <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus posuere
-                    neque eu dictum. Suspendisse eu maximus tellus, suscipit posuere dui. </p>
-                <a href="#" class="btn btn-secondary" role="button" aria-pressed="true">Read
-                    more</a>
-            </div>
-            <div class="col-md-4">
-                <img src="img/demo3.jpg" class="demo">
-                <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus posuere
-                    neque eu dictum. Suspendisse eu maximus tellus, suscipit posuere dui. </p>
-                <a href="#" class="btn btn-secondary" role="button" aria-pressed="true">Read
-                    more</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="feature">
-    <div class="container">
-        <div class="row">
-            <div class="col-md4">
-                <h1>Gamma features</h1>
-                <ul>
-                    <li><i class="glyph glyph-ok"></i> Etiam at nunc turpis.</li>
-                    <li><i class="glyph glyph-ok"></i> Nullam feugiat velit leo</li>
-                    <li><i class="glyph glyph-ok"></i> Id maximus turpis aliquet quis</li>
-                    <li><i class="glyph glyph-ok"></i> Ut id sapien elementum</li>
-                </ul>
-            </div>
-            <div class="col-md4 ml-auto">
-                <img class="big-logo" src="img/logo.png">
             </div>
         </div>
     </div>
