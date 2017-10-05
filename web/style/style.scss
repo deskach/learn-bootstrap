@@ -2,6 +2,106 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
 @import "./glyphicons.css";
 
+/* Vars */
+
+$primary-color: #3b5a76;
+$background-color: #ededed;
+$text-color: #363636;
+$font-size: 16px;
+
 body {
-  padding-bottom: 50px;
+  padding-bottom: 0;
+  font-family: "Open Sans", Arial, Tahoma, serif;
+  color: $text-color;
+  background: $background-color;
+  font-size: $font-size;
+}
+
+h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  font-style: 1.5em;
+
+}
+
+.primary, strong, h2 {
+  color: $primary-color;
+}
+
+.container-main {
+  background: white;
+  margin-top: 80px;
+  padding: 0 30px 30px 30px;
+}
+
+header {
+  min-height: 100px;
+  overflow: auto;
+}
+
+header h1 {
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+.profile-image {
+  width: 160px;
+  display: block;
+  margin: -80px auto auto;
+}
+
+.line {
+  max-width: 100%;
+}
+
+.work-list {
+  padding: 0;
+  margin: 0;
+}
+
+.work-list li {
+  list-style: none;
+  font-weight: bold;
+  line-height: 3.2em;
+  padding: 0 10px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.contact-list span {
+  display: block;
+  margin: 0 0 0 37px;
+  padding: 0;
+  line-height: .5em;
+  font-size: 15px;
+  color: #ccc
+}
+
+.progress {
+  margin-bottom: 1em;
+  height: 2em;
+}
+
+.media {
+  background: $background-color;
+  padding: 10px;
+}
+
+.contact-list li {
+  list-style: none;
+}
+
+footer {
+  background-color: $primary-color;
+  color: white;
+  text-align: center;
+  height: 4em;
+  padding-top: 1em;
 }
